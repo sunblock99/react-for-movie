@@ -9,10 +9,10 @@ function App() {
     if(todo === ""){
       return;
     }
-    setTodo("");
+    
     setTodos((currentArray) => [todo, ...currentArray]);
+    setTodo("");
   } 
-  console.log(todos);
   return (
   <div>
     <h1>나의 todo 수는  : ({todos.length})</h1>
@@ -20,6 +20,10 @@ function App() {
     <input onChange={onChange} value={todo} type="text" placeholder="Write your to do...." />
     <button>Add todo</button>
     </form>
+    <hr/>
+    <ul>
+    {todos.map((item, index) => <li key={index}>{item}</li>)}
+    </ul>
   </div>);
   
 }
