@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
@@ -14,9 +13,6 @@ function Detail(){
     useEffect(() => {
        getmovie();
     }, []);
-=======
-function Detail(){
->>>>>>> 23aaed5eb5cc3b6adb3154d57e2c350b719419b0
     return <h1>Detail</h1>;
 
 
