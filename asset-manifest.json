@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/sunblock99/react-for-movie.git/static/js/main.fb4bbb72.js",
-    "index.html": "/sunblock99/react-for-movie.git/index.html",
-    "main.fb4bbb72.js.map": "/sunblock99/react-for-movie.git/static/js/main.fb4bbb72.js.map"
+    "main.js": "/react-for-movie/static/js/main.fb4bbb72.js",
+    "index.html": "/react-for-movie/index.html",
+    "main.fb4bbb72.js.map": "/react-for-movie/static/js/main.fb4bbb72.js.map"
   },
   "entrypoints": [
     "static/js/main.fb4bbb72.js"
