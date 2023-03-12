@@ -21,3 +21,5 @@ function Movie({ id, coverImg, title, year, summary, genres }) {
     </div>
   );
 }
+
+export default Movie;
