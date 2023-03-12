@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy" : "npm run build"
+    "predeploy" : "npm run bul"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/sunblock99/react-for-movie.git"
+  "homepage": "https://sunblock99.github.io/react-for-movie"
 }
